@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0229FAC8B4924F5C9254A9F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A081C6FFC44B5C98FE22F8 /* ContentView.swift */; };
+		0DD3863E925F461398B750C2 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52468D64DCA74CB19EA2934C /* Services.swift */; };
+		494BE46ACE234243800C412F /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 191F214BEA5442AC8E190915 /* Models.swift */; };
+		552D2ACC4494431D9E5E254B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53963E8B03D843ED82AB4ECA /* AppDelegate.swift */; };
+		59057B621D784384B8F38FBB /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BA04B717E44392B624DADF /* LoginView.swift */; };
+		770CCF20A1534866A2429681 /* TenantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155FB21708804986B9E7B047 /* TenantsView.swift */; };
+		92B1F63802164993B6576E82 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2667F41B978A45448620E00F /* MainTabView.swift */; };
+		A926F6417A73457F9913B0EF /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CB59592D514712A3A7D919 /* DashboardView.swift */; };
+		AA01BB01AA014BB0A001BB01 /* MoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB01AA01BB01AA01BB01AA01 /* MoreView.swift */; };
+		AA02BB02AA024BB0A002BB02 /* PropertiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB02AA02BB02AA02BB02AA02 /* PropertiesView.swift */; };
+		AA03BB03AA034BB0A003BB03 /* LeasesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB03AA03BB03AA03BB03AA03 /* LeasesView.swift */; };
+		AA04BB04AA044BB0A004BB04 /* DamagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB04AA04BB04AA04BB04AA04 /* DamagesView.swift */; };
+		AA05BB05AA054BB0A005BB05 /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB05AA05BB05AA05BB05AA05 /* ReportsView.swift */; };
+		AA06BB06AA064BB0A006BB06 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB06AA06BB06AA06BB06AA06 /* StoreKitManager.swift */; };
+		AA07BB07AA074BB0A007BB07 /* SubscriptionPaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB07AA07BB07AA07BB07AA07 /* SubscriptionPaywallView.swift */; };
+		AA08BB08AA084BB0A008BB08 /* BiometricAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB08AA08BB08AA08BB08AA08 /* BiometricAuthManager.swift */; };
+		AA09BB09AA094BB0A009BB09 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB09AA09BB09AA09BB09AA09 /* SignupView.swift */; };
+		AA10BB10AA104BB0A010BB10 /* AddLeaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB10AA10BB10AA10BB10AA10 /* AddLeaseView.swift */; };
+		AA11BB11AA114BB0A011BB11 /* AddDamageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB11AA11BB11AA11BB11AA11 /* AddDamageView.swift */; };
+		AA12BB12AA124BB0A012BB12 /* AddEditTenantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB12AA12BB12AA12BB12AA12 /* AddEditTenantView.swift */; };
+		AA13BB13AA134BB0A013BB13 /* ElectricityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB13AA13BB13AA13BB13AA13 /* ElectricityView.swift */; };
+		AA14BB14AA144BB0A014BB14 /* AddElectricityBillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB14AA14BB14AA14BB14AA14 /* AddElectricityBillView.swift */; };
+		AA15BB15AA154BB0A015BB15 /* DeleteAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB15AA15BB15AA15BB15AA15 /* DeleteAccountView.swift */; };
+		C4B2CE95CBCC4506BBCFFB93 /* RentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C26EDB864CFD4B468F62C69F /* RentView.swift */; };
+		C7B4AB244DE744B8A6D9B243 /* ExpensesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528FEFEE8C56431AAE51CBFA /* ExpensesView.swift */; };
+		D07B97598E204137A17B7EEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57323A3F01A54DE4911C4DD7 /* Assets.xcassets */; };
+		E1B2CDE865AA4ADABA9243A0 /* VLSProRentalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA0712DEE34F699FDB7C71 /* VLSProRentalApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		155FB21708804986B9E7B047 /* TenantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenantsView.swift; sourceTree = "<group>"; };
+		191F214BEA5442AC8E190915 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		2667F41B978A45448620E00F /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		33A081C6FFC44B5C98FE22F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		417386CC3AD145918B9029D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52468D64DCA74CB19EA2934C /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
+		528FEFEE8C56431AAE51CBFA /* ExpensesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesView.swift; sourceTree = "<group>"; };
+		53963E8B03D843ED82AB4ECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57323A3F01A54DE4911C4DD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C1CE5CCBF64468FB289B636 /* VLSProRental.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLSProRental.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC2F35FF6884F338197EB08 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89BA04B717E44392B624DADF /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AFAA0712DEE34F699FDB7C71 /* VLSProRentalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VLSProRentalApp.swift; sourceTree = "<group>"; };
+		B102D924D2AC47BAABE533C2 /* VLSProRental.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VLSProRental.entitlements; sourceTree = "<group>"; };
+		BB01AA01BB01AA01BB01AA01 /* MoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreView.swift; sourceTree = "<group>"; };
+		BB02AA02BB02AA02BB02AA02 /* PropertiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertiesView.swift; sourceTree = "<group>"; };
+		BB03AA03BB03AA03BB03AA03 /* LeasesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeasesView.swift; sourceTree = "<group>"; };
+		BB04AA04BB04AA04BB04AA04 /* DamagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DamagesView.swift; sourceTree = "<group>"; };
+		BB05AA05BB05AA05BB05AA05 /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		BB06AA06BB06AA06BB06AA06 /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		BB07AA07BB07AA07BB07AA07 /* SubscriptionPaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionPaywallView.swift; sourceTree = "<group>"; };
+		BB08AA08BB08AA08BB08AA08 /* BiometricAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthManager.swift; sourceTree = "<group>"; };
+		BB09AA09BB09AA09BB09AA09 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		BB10AA10BB10AA10BB10AA10 /* AddLeaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddLeaseView.swift; sourceTree = "<group>"; };
+		BB11AA11BB11AA11BB11AA11 /* AddDamageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDamageView.swift; sourceTree = "<group>"; };
+		BB12AA12BB12AA12BB12AA12 /* AddEditTenantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditTenantView.swift; sourceTree = "<group>"; };
+		BB13AA13BB13AA13BB13AA13 /* ElectricityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElectricityView.swift; sourceTree = "<group>"; };
+		BB14AA14BB14AA14BB14AA14 /* AddElectricityBillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddElectricityBillView.swift; sourceTree = "<group>"; };
+		BB15AA15BB15AA15BB15AA15 /* DeleteAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAccountView.swift; sourceTree = "<group>"; };
+		C26EDB864CFD4B468F62C69F /* RentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentView.swift; sourceTree = "<group>"; };
+		C4D5DBDA300368940088EFD7 /* VLSProRental.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; name = VLSProRental.storekit; path = VLSProRental/VLSProRental.storekit; sourceTree = "<group>"; };
+		D2CB59592D514712A3A7D919 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D76E1A1E3A44B9CAC179D28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EA41884F14D458AB4E18449 /* VLSProRental */ = {
+			isa = PBXGroup;
+			children = (
+				AFAA0712DEE34F699FDB7C71 /* VLSProRentalApp.swift */,
+				191F214BEA5442AC8E190915 /* Models.swift */,
+				52468D64DCA74CB19EA2934C /* Services.swift */,
+				89BA04B717E44392B624DADF /* LoginView.swift */,
+				2667F41B978A45448620E00F /* MainTabView.swift */,
+				D2CB59592D514712A3A7D919 /* DashboardView.swift */,
+				155FB21708804986B9E7B047 /* TenantsView.swift */,
+				C26EDB864CFD4B468F62C69F /* RentView.swift */,
+				528FEFEE8C56431AAE51CBFA /* ExpensesView.swift */,
+				BB01AA01BB01AA01BB01AA01 /* MoreView.swift */,
+				BB02AA02BB02AA02BB02AA02 /* PropertiesView.swift */,
+				BB03AA03BB03AA03BB03AA03 /* LeasesView.swift */,
+				BB04AA04BB04AA04BB04AA04 /* DamagesView.swift */,
+				BB05AA05BB05AA05BB05AA05 /* ReportsView.swift */,
+				BB06AA06BB06AA06BB06AA06 /* StoreKitManager.swift */,
+				BB07AA07BB07AA07BB07AA07 /* SubscriptionPaywallView.swift */,
+				BB08AA08BB08AA08BB08AA08 /* BiometricAuthManager.swift */,
+				BB09AA09BB09AA09BB09AA09 /* SignupView.swift */,
+				BB10AA10BB10AA10BB10AA10 /* AddLeaseView.swift */,
+				BB11AA11BB11AA11BB11AA11 /* AddDamageView.swift */,
+				BB12AA12BB12AA12BB12AA12 /* AddEditTenantView.swift */,
+				BB13AA13BB13AA13BB13AA13 /* ElectricityView.swift */,
+				BB14AA14BB14AA14BB14AA14 /* AddElectricityBillView.swift */,
+				BB15AA15BB15AA15BB15AA15 /* DeleteAccountView.swift */,
+				53963E8B03D843ED82AB4ECA /* AppDelegate.swift */,
+				33A081C6FFC44B5C98FE22F8 /* ContentView.swift */,
+				57323A3F01A54DE4911C4DD7 /* Assets.xcassets */,
+				6EC2F35FF6884F338197EB08 /* LaunchScreen.storyboard */,
+				417386CC3AD145918B9029D3 /* Info.plist */,
+				B102D924D2AC47BAABE533C2 /* VLSProRental.entitlements */,
+			);
+			path = VLSProRental;
+			sourceTree = "<group>";
+		};
+		A3759E5D502740EDBA4D00AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C1CE5CCBF64468FB289B636 /* VLSProRental.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F78D39C1CA09474DBD91515C = {
+			isa = PBXGroup;
+			children = (
+				C4D5DBDA300368940088EFD7 /* VLSProRental.storekit */,
+				9EA41884F14D458AB4E18449 /* VLSProRental */,
+				A3759E5D502740EDBA4D00AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58D8DC96E2354230904B70F2 /* VLSProRental */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B1D0634D654F09834A595B /* Build configuration list for PBXNativeTarget "VLSProRental" */;
+			buildPhases = (
+				04F27702AC2C4CD98E9E0C2D /* Sources */,
+				E112496B38A64CE488AA69AB /* Resources */,
+				3D76E1A1E3A44B9CAC179D28 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VLSProRental;
+			productName = VLSProRental;
+			productReference = 5C1CE5CCBF64468FB289B636 /* VLSProRental.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A354916D0C864A4A8458204A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					58D8DC96E2354230904B70F2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 73B431C140094971AE49B5C3 /* Build configuration list for PBXProject "VLSProRental" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F78D39C1CA09474DBD91515C;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58D8DC96E2354230904B70F2 /* VLSProRental */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E112496B38A64CE488AA69AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07B97598E204137A17B7EEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04F27702AC2C4CD98E9E0C2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				494BE46ACE234243800C412F /* Models.swift in Sources */,
+				0DD3863E925F461398B750C2 /* Services.swift in Sources */,
+				59057B621D784384B8F38FBB /* LoginView.swift in Sources */,
+				92B1F63802164993B6576E82 /* MainTabView.swift in Sources */,
+				A926F6417A73457F9913B0EF /* DashboardView.swift in Sources */,
+				770CCF20A1534866A2429681 /* TenantsView.swift in Sources */,
+				C4B2CE95CBCC4506BBCFFB93 /* RentView.swift in Sources */,
+				C7B4AB244DE744B8A6D9B243 /* ExpensesView.swift in Sources */,
+				AA01BB01AA014BB0A001BB01 /* MoreView.swift in Sources */,
+				AA02BB02AA024BB0A002BB02 /* PropertiesView.swift in Sources */,
+				AA03BB03AA034BB0A003BB03 /* LeasesView.swift in Sources */,
+				AA04BB04AA044BB0A004BB04 /* DamagesView.swift in Sources */,
+				AA05BB05AA054BB0A005BB05 /* ReportsView.swift in Sources */,
+				AA06BB06AA064BB0A006BB06 /* StoreKitManager.swift in Sources */,
+				AA07BB07AA074BB0A007BB07 /* SubscriptionPaywallView.swift in Sources */,
+				AA08BB08AA084BB0A008BB08 /* BiometricAuthManager.swift in Sources */,
+				AA09BB09AA094BB0A009BB09 /* SignupView.swift in Sources */,
+				AA10BB10AA104BB0A010BB10 /* AddLeaseView.swift in Sources */,
+				AA11BB11AA114BB0A011BB11 /* AddDamageView.swift in Sources */,
+				AA12BB12AA124BB0A012BB12 /* AddEditTenantView.swift in Sources */,
+				AA13BB13AA134BB0A013BB13 /* ElectricityView.swift in Sources */,
+				AA14BB14AA144BB0A014BB14 /* AddElectricityBillView.swift in Sources */,
+				AA15BB15AA154BB0A015BB15 /* DeleteAccountView.swift in Sources */,
+				E1B2CDE865AA4ADABA9243A0 /* VLSProRentalApp.swift in Sources */,
+				552D2ACC4494431D9E5E254B /* AppDelegate.swift in Sources */,
+				0229FAC8B4924F5C9254A9F1 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		28A466FEDCE74640B54FB8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSTCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSTCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VLSProRental/VLSProRental.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VLSProRental/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.vlspro.rental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D9C4DF967604C64B59CFA3F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSTCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSTCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VLSProRental/VLSProRental.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = VLSProRental/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LE_SWIFT_VERSION = 5.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = in.co.vlspro.rental;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD1668896A3D49B6BC9938FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSET_CATALOG_COMPILER_OPTIMIZATION = space;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 58J4Z2BV4B;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA80D3D3DAD9473384DBC296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSET_CATALOG_COMPILER_OPTIMIZATION = space;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_CYCLE = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 58J4Z2BV4B;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73B431C140094971AE49B5C3 /* Build configuration list for PBXProject "VLSProRental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1668896A3D49B6BC9938FA /* Debug */,
+				DA80D3D3DAD9473384DBC296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B1D0634D654F09834A595B /* Build configuration list for PBXNativeTarget "VLSProRental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D9C4DF967604C64B59CFA3F /* Debug */,
+				28A466FEDCE74640B54FB8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A354916D0C864A4A8458204A /* Project object */;
+}

@@ -1,0 +1,62 @@
+{
+  "identifier" : "C3D4E5F6-A7B8-9012-CDEF-012345678901",
+  "nonConsumableProducts" : [],
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_applicationUsername" : "",
+    "_failTransactionsEnabled" : false,
+    "_locale" : "en_IN",
+    "_storefront" : "IND",
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "F8A9B2C3-D4E5-6789-ABCD-EF0123456789",
+      "localizations" : [],
+      "name" : "VLSPro Rental Plans",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "displayPrice" : "1500",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "A1B2C3D4-E5F6-7890-ABCD-EF1234567890",
+          "introductoryOffer" : {
+            "internalID" : "B2C3D4E5-F6A7-8901-BCDE-F01234567890",
+            "numberOfPeriods" : 2,
+            "paymentMode" : "free",
+            "subscriptionPeriod" : "P1M"
+          },
+          "localizations" : [
+            {
+              "description" : "Full access to VLSPro Rental — manage properties, tenants, rent, expenses and reports.",
+              "displayName" : "Monthly Plan",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "in.co.vlspro.rental.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Monthly Plan",
+          "subscriptionGroupID" : "F8A9B2C3-D4E5-6789-ABCD-EF0123456789",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
