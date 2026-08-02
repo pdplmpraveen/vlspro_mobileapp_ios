@@ -159,5 +159,5 @@ struct PropertySummaryPill: View {
 }
 
 #Preview {
-    NavigationView { PropertiesView().environmentObject(DataService.shared) }
+    NavigationStack { PropertiesView().environmentObject(DataService.shared) }
 }

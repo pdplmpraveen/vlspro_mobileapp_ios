@@ -248,5 +248,5 @@ struct ReportStatCard: View {
 }
 
 #Preview {
-    NavigationView { ReportsView().environmentObject(DataService.shared) }
+    NavigationStack { ReportsView().environmentObject(DataService.shared) }
 }

@@ -7,7 +7,7 @@ struct DashboardView: View {
     private var s: DashboardSummary? { data.dashboard?.summary }
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Group {
                 if data.dashboardLoading && data.dashboard == nil {
                     ProgressView("Loading…")
