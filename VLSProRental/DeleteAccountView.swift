@@ -14,7 +14,7 @@ struct DeleteAccountView: View {
     }
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Form {
                 Section {
                     HStack(alignment: .top, spacing: 10) {

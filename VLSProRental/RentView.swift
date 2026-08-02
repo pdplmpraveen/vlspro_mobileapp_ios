@@ -17,7 +17,7 @@ struct RentView: View {
     var totalPending: Double   { pending.reduce(0) { $0 + $1.rent_amount } }
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 0) {
                 // Month scroller
                 ScrollView(.horizontal, showsIndicators: false) {
@@ -191,7 +191,7 @@ struct RecordPaymentSheet: View {
     ]
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Form {
                 // ── Summary (read-only) ──────────────────────────────────────
                 Section {

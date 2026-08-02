@@ -1,0 +1,23 @@
+# Xcode user-specific state
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# Build products
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# CocoaPods / SPM (uncomment if adopted later)
+# Pods/
+# .build/
+
+# Local secrets / provisioning (none currently tracked, kept as a guard)
+*.mobileprovision
+*.p12

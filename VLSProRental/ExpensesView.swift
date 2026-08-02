@@ -21,7 +21,7 @@ struct ExpensesView: View {
     }
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack(spacing: 0) {
                 // Banner
                 HStack {
@@ -170,7 +170,7 @@ struct AddExpenseSheet: View {
     }
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Form {
                 // Category
                 Section("Category") {

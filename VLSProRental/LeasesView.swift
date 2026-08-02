@@ -183,5 +183,5 @@ struct LeaseInfoCell: View {
 }
 
 #Preview {
-    NavigationView { LeasesView().environmentObject(DataService.shared) }
+    NavigationStack { LeasesView().environmentObject(DataService.shared) }
 }

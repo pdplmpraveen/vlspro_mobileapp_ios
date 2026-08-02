@@ -159,5 +159,5 @@ struct DamageCard: View {
 }
 
 #Preview {
-    NavigationView { DamagesView().environmentObject(DataService.shared) }
+    NavigationStack { DamagesView().environmentObject(DataService.shared) }
 }

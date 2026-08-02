@@ -218,7 +218,7 @@ struct MarkBillPaidSheet: View {
     ]
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Form {
                 Section {
                     LabeledContent("Unit", value: "\(bill.unit_number) · \(bill.property_name)")
@@ -298,5 +298,5 @@ struct MarkBillPaidSheet: View {
 }
 
 #Preview {
-    NavigationView { ElectricityView().environmentObject(DataService.shared) }
+    NavigationStack { ElectricityView().environmentObject(DataService.shared) }
 }
